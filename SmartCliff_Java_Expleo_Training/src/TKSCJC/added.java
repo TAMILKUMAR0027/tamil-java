@@ -1,5 +1,4 @@
 package TKSCJC;
-import java.util.*;
 public class added {
 
 	static int add(int a,int b) {
