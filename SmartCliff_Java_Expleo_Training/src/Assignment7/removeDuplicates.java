@@ -21,12 +21,12 @@ public class removeDuplicates {
 		Scanner s = new Scanner(System.in);
 		String st = s.nextLine();
 		String res = "";
-		boolean[] seen = new boolean[256]; //total ascii values 
+		boolean[] seen = new boolean[256]; // total ascii values
 		for (int i = 0; i < st.length(); i++) {
 			char c = st.charAt(i);
 			if (!seen[c]) { // it will check whether is character is already went
 				res += c;
-				seen[c] = true; //once visited it change false to true
+				seen[c] = true; // once visited it change false to true
 			}
 		}
 		System.out.println(res);
