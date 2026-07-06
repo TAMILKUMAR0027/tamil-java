@@ -12,7 +12,7 @@ public class CollectionConcat {
 		String res="";
 		Iterator<String>it=st.iterator();
 		while(it.hasNext()) {
-			System.out.println("Elements in the Set : " + str);
+			System.out.println("Elements in the Set : " + st);
 			res+=it.next()+" ";
 		}
 			
